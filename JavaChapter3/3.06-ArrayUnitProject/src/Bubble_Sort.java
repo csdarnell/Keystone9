@@ -17,9 +17,9 @@
 		int l = sort.length;
 		System.out.println("The size of the arraylist is: " + sort.length);
 		System.out.println("The unsorted numbers inside of the arraylist are: ");
-		for (i=0; i < l; i++) {
-			System.out.println(sort[i]);
-			
+		for (i=0; i < l; i++) 
+		{
+			System.out.println(sort[i]);	
 		}
 		System.out.println("Degbug -1");
 		for(j=1; j < l; j++) 
@@ -40,8 +40,8 @@
 		}
 		for(i=0; i< 10; i++)
 		{
-		System.out.println(sort[i]);
-	}
+			System.out.println(sort[i]);
+		}
 	}
 }
 

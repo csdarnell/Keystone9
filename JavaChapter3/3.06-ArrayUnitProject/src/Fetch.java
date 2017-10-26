@@ -9,8 +9,10 @@
  *
  */
 import java.util.Scanner;
-public class Fetch {
-	public static void main(String args[]) {
+public class Fetch 
+{
+	public static void main(String args[]) 
+	{
 		boolean s = true;
 		Scanner in = new Scanner (System.in);
 		int aInput;
@@ -26,17 +28,19 @@ public class Fetch {
 		a[8] = 29;
 		a[9] = 33;
 		System.out.println("The numbers in the array, in order, are:");
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) 
+		{
 			System.out.println(a[i]);
 		}
 		System.out.println("Please enter the position of the number(1-10) that you want to see agian! If you wan't to stop, Enter the 11");
 		
-		while (s = true){
-		aInput = in.nextInt();
-		aInput = aInput - 1;		
-		if(aInput >= 10)
-			s = false;
-		System.out.println(a[aInput]);
+		while (s = true)
+		{
+			aInput = in.nextInt();
+			aInput = aInput - 1;		
+			if(aInput >= 10)
+				s = false;
+			System.out.println(a[aInput]);
 		}
 		System.out.println("Thank you for using this program!");
 
