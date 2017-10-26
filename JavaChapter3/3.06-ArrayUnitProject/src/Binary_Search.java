@@ -1,4 +1,13 @@
-
+/**********************************************************
+ * 
+ * Filename:  Binary_Search.java
+ * Author: Evan Darnell
+ * Class:  Programming:  Visual Basic.NET and Java
+ * Semester:  2
+ * Assignment Number:  3.06 - Array Unit Project
+ * Description:    
+ *
+ */
 public class Binary_Search 
 {
 	public static final int notfound = -1;

@@ -1,4 +1,13 @@
-
+/**********************************************************
+ * 
+ * Filename:  Fetch.java
+ * Author: Evan Darnell
+ * Class:  Programming:  Visual Basic.NET and Java
+ * Semester:  2
+ * Assignment Number:  3.06 - Array Unit Project
+ * Description:  
+ *
+ */
 import java.util.Scanner;
 public class Fetch {
 	public static void main(String args[]) {

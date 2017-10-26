@@ -1,4 +1,13 @@
-public class Bubble_Sort 
+/**********************************************************
+ * 
+ * Filename:  Bubble_Sort.java
+ * Author: Evan Darnell
+ * Class:  Programming:  Visual Basic.NET and Java
+ * Semester:  2
+ * Assignment Number:  3.06 - Array Unit Project
+ * Description:  Sort an array
+ *
+ */public class Bubble_Sort 
 {
 
 	public static void main(String args[]) 
