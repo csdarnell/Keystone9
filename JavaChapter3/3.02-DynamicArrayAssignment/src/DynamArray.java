@@ -1,3 +1,14 @@
+/**********************************************************
+ * 
+ * Author: Evan Darnell
+ * Class:  Programming:  Visual Basic.NET and Java
+ * Semester:  2
+ * Assignment Number:  3.02 - Dynamic Arrays
+ * Assignment Instructions:  Revisit your program for generating the 
+ * first 20 numbers Fibonacci series. Rewrite your program using dynamic array 
+ * as shown in the example on the previous page.
+ *
+ */
 
 public class DynamArray {
 	public static int[] data;
