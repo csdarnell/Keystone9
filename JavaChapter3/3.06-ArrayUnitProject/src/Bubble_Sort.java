@@ -5,7 +5,7 @@
  * Class:  Programming:  Visual Basic.NET and Java
  * Semester:  2
  * Assignment Number:  3.06 - Array Unit Project
- * Description:  Sort an array
+ * Description:  A Java program to sort these numbers in ascending order using a bubble sort:  16, 100, 205, 8, 1, 3, 2, 5, 7, 6, 15, 10, 14
  *
  */public class Bubble_Sort 
 {

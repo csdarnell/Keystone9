@@ -5,7 +5,7 @@
  * Class:  Programming:  Visual Basic.NET and Java
  * Semester:  2
  * Assignment Number:  3.06 - Array Unit Project
- * Description:  
+ * Description:  A Java program using single dimensional array. Have a list of 10 numbers and fetch a value based on the index
  *
  */
 import java.util.Scanner;

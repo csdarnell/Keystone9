@@ -5,7 +5,7 @@
  * Class:  Programming:  Visual Basic.NET and Java
  * Semester:  2
  * Assignment Number:  3.06 - Array Unit Project
- * Description:    
+ * Description:  A Java program to find the value 45.3 from this list ={-3,10,5,24,45.3,10.5} using the binary search method.  
  *
  */
 public class Binary_Search 
