@@ -9,38 +9,36 @@
  *
  */
 
-public class DynamArray {
+public class DynamArray 
+{
 	public static int[] data;
 	public static void main(String args[]) 
 	{
-		data = new int[1];
+		int pl; //Placement
+
+		data = new int[1]; // Dimming the "data" array
 		System.out.println("Debug");
-		int newsize = 20 * data.length;
+		int newsize = 20 * data.length; // Dimming the size of the new array.
 		int[] newdata = new int[newsize];
-		newdata[0] = 0;
-		newdata[1] = 1;
-		newdata[2] = 1;
-		newdata[3] = 2;
-		newdata[4] = 3;
-		newdata[5] = 5;
-		newdata[6] = 8;
-		newdata[7] = 13;
-		newdata[8] = 21;
-		newdata[9] = 34;
-		newdata[10] = 55;
-		newdata[11] = 89;
-		newdata[12] = 144;
-		newdata[13] = 233;
-		newdata[14] = 377;
-		newdata[15] = 610;
-		newdata[16] = 987;
-		newdata[17] = 1597;
-		newdata[18] = 2584;
-		newdata[19] = 4181;
+		newdata(0) = 0;
+		newdata(1) = 1;
+		newdata(2) = 1;
+		for(pl = 1; pl <= 20; pl++)
+		{
+			 newdata(
+			
+			newdata(pl) = newdata(pl-1) + newdata(pl-2)); 
+		}
+		
 		System.arraycopy(data, 0, newdata, 0, data.length);
 		data=newdata;
 		for(int pos = 0; pos < 20; pos++) {
 			System.out.println(data[pos]);
 		}
 	}
+}
+class Dynam
+{
+
+	
 }
