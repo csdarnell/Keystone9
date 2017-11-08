@@ -1,4 +1,13 @@
-
+/**********************************************************
+ * 
+ * Filename:  Question_1.java
+ * Author: Evan Darnell
+ * Class:  Programming:  Visual Basic.NET and Java
+ * Semester:  2
+ * Assignment Number:  4.07 - O-Unit Exam
+ * Description:  Create a set of classes as shown in the diagram. Create a different object for the different shapes and display the area of each shape. 
+ *
+ */
 public class Question_1 
 {
 	public static void main(String args[])

@@ -23,7 +23,7 @@ public class DynamArray
 		newdata(0) = 0;
 		newdata(1) = 1;
 		newdata(2) = 1;
-		for(pl = 1; pl <= 20; pl++)
+		for(pl = 3; pl <= 20; pl++)
 		{
 			 newdata(
 			
